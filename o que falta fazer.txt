@@ -1,0 +1,4 @@
+deixar o site responsivo
+
+validar os links
+validar o formulário do fale conosco

@@ -7,67 +7,91 @@
     <link rel="shortcut icon" href="img/f4life-icon1.png" type="image/x-icon">
     <title>F4Life - Moradias Universitárias</title>
     
+    <!--FONTE-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet"> 
+    <!--ESTILO-->
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
   </head>
 
   <body>
-    <header>
-      <section>
-        <img src="img/f4life-icon.png" alt="Logo-F4Life">
-        <a href="#">Quem somos</a>
-        <a href="#">Fale conosco</a>  
-      </section>
+    <!--*-----------------CABECALHO-------------------***/-->
+    <header id="inicio" class="cabecalho">
+      <img src="img/f4life-icon.png" alt="Logo-F4Life">
+      <a href="index.html#quem-somos">Quem somos</a>
+      <a href="index.html#fale-conosco">Fale conosco</a> 
     </header>
 
     <main>
-      <section>
-        <img src="img/estudantes.jpeg" alt="estudantes">
-        <div>
-          <h2>Estude sem se preocupar</h2>
-          <p>REALIZE SEU SONHO</p>
-        </div>
+      <!--/*-----------------IMAGEM-FUNDO-------------------***/-->
+      <p class="imagem-fundo"></p>
+      <section class="estudante">
+        <h2>Economize tempo, economize dinheiro!</h2>
+        <a href="index.html#fale-conosco" class="caixa-realize-seu-sonho">REALIZE SEU SONHO</a>
       </section>
 
-      <section>
+    <!--/*-----------------QUEM SOMOS-------------------***/-->
+      <section id="quem-somos" class="quem-somos">
         <h1>Quem somos</h1>
-        <h2>F4Life é uma empresa de aluguéis de repúblicas para pessoas universitárias.</h2>
-        <p>Similar aos modelos de Quinto Andar e Loft, a empresa realiza reformas e prepara moradias para recepção de pessoas universitárias em um 
-          ambiente específico e otimizado para a vida de graduação.</p>
-        <p>Similar aos modelos de Quinto Andar e Loft, a empresa realiza reformas e prepara moradias para recepção de pessoas universitárias em um 
-          ambiente específico e otimizado para a vida de graduação.</p>
+        <h2>F4Life é uma empresa de aluguéis de repúblicas para <br>pessoas universitárias </h2>
+        <div>
+          <p>Similar aos modelos de Quinto Andar e <br>Loft, a empresa realiza reformas e <br>prepara moradias para recepção de <br>pessoas universitárias em um<br> 
+            ambiente específico e otimizado para a <br>vida de graduação.</p>
+          <p>Sua única preocupação será com a vida acadêmica! <br>Loft, a empresa realiza reformas e <br>prepara moradias para recepção de <br>pessoas universitárias em um<br> 
+            ambiente específico e otimizado para a <br>vida de graduação.</p>
+        </div>
+        
       </section>
 
-      <section>
-        <ul>
-          <li><img src="img/moradia-compartilhada.jpg" alt="moradia-compartilhada"></li>
+      <!--/*-----------------PRODUTOS-------------------***/-->
+      <section class="produtos">
+        <ul class="produto-um">
+          <img src="img/moradia-compartilhada.jpg" alt="moradia-compartilhada">
           <h3>Moradia compartilhada</h3>
           <li>Conheça as vantagens de morar<br>em um ambiente compartilhado</li>
         </ul>
 
-        <ul>
-          <li><img src="img/kitnet.jpg" alt="kitnet"></li>
-          <li><h3>Kitnets</h3></li>
-          <li><p>Gosta de um lugar mais compacto?<br>Nós temos a solução</p></li>
+        <ul class="produto-dois">
+          <img src="img/kitnet.jpg" alt="kitnet">
+          <h3>Kitnets</h3>
+          <li>Gosta de um lugar mais compacto?<br>Nós temos a solução</p>
         </ul>
       </section>
 
-      <section>
+      <!--/*-----------------FALE-CONOSCO-------------------***/-->
+      <form id="fale-conosco" class="fale-conosco">
         <h1>Fale conosco</h1>
-        <input type="email" placeholder="E-mail">
-        <input type="email" placeholder="Deixe aqui uma mensagem">
-        <input type="button" value="ENVIAR">
-      </section>
+        <div>
+          <label for="nome">Nome</label>
+          <input type="text" placeholder="Primeiro nome" id="nome" class="nome">
+          <label for="email">Email</label>
+          <input type="email" id="email" placeholder="email@mail.com" class="email">
+          <label for="mensagem">Mensagem</label>
+          <textarea name="" id="mensagem" cols="70" rows="10" class="mensagem" placeholder="Deixe aqui uma mensagem"></textarea>
+          <input type="submit" value="ENVIAR" class="enviar">
+        </div>
+      </form>
     </main>
 
-    <footer>
-      <div>
+    <!--/*-----------------RODAPE-------------------***/-->
+    <footer class="rodape">
+      <div class="logo">
         <img src="img/f4life-icon.png" alt="f4life-icon">
-        <a href="facebook.com"><img src="img/facebook-icon.png" alt="facebook-icon"></a>
-        <a href="linkedin.com"><img src="img/linkedin-icon.png" alt="linkedin-icon"></a>
-        <a href="twitter.com"><img src="img/twitter-icon.png" alt="twitter-icon"></a>
-        <p class="copyright">&copy; Copyright F4Life - 2022<br>Todos os direitos reservados</p>
+        <a class="rede-social" href="https://www.facebook.com/" target="_blank"><img src="img/facebook-icon.png" alt="facebook-icon"></a>
+        <a class="rede-social" href="https://www.twitter.com" target="_blank"><img src="img/twitter-icon.png" alt="twitter-icon"></a>
+        <a class="rede-social" href="https://www.instagram.com" target="_blank"><img src="img/instagram-icon.png" alt="instagram-icon"></a>
       </div>
+      <div class="menu-rodape">
+        <a href="index.html#inicio" class="inicio">Ir ao topo</a><br><br>
+        <a href="index.html#quem-somos">Quem somos</a><br><br>
+        <a href="index.html#fale-conosco">Fale conosco</a>
+      </div>
+      <p class="copyright">&copy; Copyright F4Life - 2022<br>Todos os direitos reservados</p>
     </footer>
+    
+    <!--SCRIPTS-->
+    <script src="js/validacao-email.js"></script>
   </body>
 </html>
