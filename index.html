@@ -14,11 +14,12 @@
     <!--ESTILO-->
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
   </head>
 
   <body>
     <!--*-----------------CABECALHO-------------------***/-->
-    <header id="inicio" class="cabecalho">
+    <header id="home" class="cabecalho">
       <img src="img/f4life-icon.png" alt="Logo-F4Life">
       <a href="index.html#quem-somos">Quem somos</a>
       <a href="index.html#fale-conosco">Fale conosco</a> 
@@ -37,10 +38,9 @@
         <h1>Quem somos</h1>
         <h2>F4Life é uma empresa de aluguéis de repúblicas para <br>pessoas universitárias </h2>
         <div>
-          <p>Similar aos modelos de Quinto Andar e <br>Loft, a empresa realiza reformas e <br>prepara moradias para recepção de <br>pessoas universitárias em um<br> 
+          <p class="separa">Similar aos modelos de Quinto Andar e <br>Loft, a empresa realiza reformas e <br>prepara moradias para recepção de <br>pessoas universitárias em um<br> 
             ambiente específico e otimizado para a <br>vida de graduação.</p>
-          <p>Sua única preocupação será com a vida acadêmica! <br>Loft, a empresa realiza reformas e <br>prepara moradias para recepção de <br>pessoas universitárias em um<br> 
-            ambiente específico e otimizado para a <br>vida de graduação.</p>
+          <p class="separa">Sua única preocupação será com a vida <br>acadêmica! <br>Encontre todos os tipos de acomodação de<br>acordo com o seu bolso</p>
         </div>
         
       </section>
@@ -61,16 +61,19 @@
       </section>
 
       <!--/*-----------------FALE-CONOSCO-------------------***/-->
-      <form id="fale-conosco" class="fale-conosco">
+      <form id="fale-conosco" class="fale-conosco" name="formulario" action="validacao-email.js" method="post">
         <h1>Fale conosco</h1>
         <div>
-          <label for="nome">Nome</label>
-          <input type="text" placeholder="Primeiro nome" id="nome" class="nome">
-          <label for="email">Email</label>
-          <input type="email" id="email" placeholder="email@mail.com" class="email">
-          <label for="mensagem">Mensagem</label>
-          <textarea name="" id="mensagem" cols="70" rows="10" class="mensagem" placeholder="Deixe aqui uma mensagem"></textarea>
-          <input type="submit" value="ENVIAR" class="enviar">
+          <label for="nome">Nome * <p class="mensagem-erro" id="mensagem-nome"></p></label>
+          <input type="text" placeholder="Primeiro nome" id="nome" class="nome" name="nome">
+          
+          <label for="email">Email * <p class="mensagem-erro" id="mensagem-email"></p></label>
+          <input type="email" id="email" placeholder="email@mail.com" class="email" name="email">
+         
+          <label for="mensagem">Mensagem * <p class="mensagem-erro" id="mensagem-mensagem"></p></label>
+          <textarea name="mensagem" id="mensagem" cols="70" rows="10" class="mensagem" placeholder="Deixe aqui uma mensagem"></textarea>
+          
+          <input type="submit" onclick="return validaFormulario()" value="ENVIAR" class="enviar">
         </div>
       </form>
     </main>
@@ -78,13 +81,13 @@
     <!--/*-----------------RODAPE-------------------***/-->
     <footer class="rodape">
       <div class="logo">
-        <img src="img/f4life-icon.png" alt="f4life-icon">
+        <img class="logo-site" src="img/f4life-icon.png" alt="f4life-icon">
         <a class="rede-social" href="https://www.facebook.com/" target="_blank"><img src="img/facebook-icon.png" alt="facebook-icon"></a>
         <a class="rede-social" href="https://www.twitter.com" target="_blank"><img src="img/twitter-icon.png" alt="twitter-icon"></a>
         <a class="rede-social" href="https://www.instagram.com" target="_blank"><img src="img/instagram-icon.png" alt="instagram-icon"></a>
       </div>
       <div class="menu-rodape">
-        <a href="index.html#inicio" class="inicio">Ir ao topo</a><br><br>
+        <a href="index.html#home" class="home">Ir ao topo</a><br><br>
         <a href="index.html#quem-somos">Quem somos</a><br><br>
         <a href="index.html#fale-conosco">Fale conosco</a>
       </div>
@@ -92,6 +95,6 @@
     </footer>
     
     <!--SCRIPTS-->
-    <script src="js/validacao-email.js"></script>
+    <script src="js/valida-form.js"></script>
   </body>
 </html>

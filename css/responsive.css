@@ -1,0 +1,338 @@
+@media(max-width: 700px){
+    body{
+        width: auto;
+        background-color: rgba(19, 34, 53, 1);      
+        font-family: 'Open Sans', sans-serif;
+        text-align: center;
+    }
+    
+    /*-----------------CABECALHO-------------------***/
+    header{
+        display: flexbox;
+        background-color: rgba(19, 34, 53, 1); 
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        height: 150px; 
+        
+    }
+    
+    .cabecalho img{
+        width: 190px;
+        margin-top: 15px;
+        margin-left: 25%;
+        margin-bottom: 10px;   
+    }
+    
+    .cabecalho a{
+        display: inline-block;
+        margin-top: 5px;
+        vertical-align: top;
+    
+        text-decoration: none;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        font-weight: bold;
+        font-size: 18px;
+    }
+    
+    /*-----------------IMAGEM-FUNDO-------------------***/
+    .imagem-fundo{
+        position: absolute;
+        background-image: url("../img/estudantes.jpeg"); 
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        
+        filter: brightness(0.6);
+        width: 100%;
+        height: 300px; 
+        text-align: center;
+    }
+    
+    .estudante{
+        display: inline-block;
+        position: relative;
+        width: auto;
+    }
+    
+    .estudante h2{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 30px;
+        font-weight: 700;
+        padding-top: 75px;
+        color: #FFFFFF;
+        margin-bottom: 50px;
+    }
+    
+    .caixa-realize-seu-sonho{
+        display: inline-block;
+        border: 3px solid #FFFFFF;
+        width: 300px;
+        
+        margin-bottom: 5px;
+        border-radius: 7px;
+        height: 50px;
+        padding-top: 20px;
+        
+        text-decoration: none;
+        font-size: 20px;
+        color: #FFFFFF;
+        font-weight: 700;
+    }
+    
+    /*-----------------QUEM-SOMOS-------------------***/
+    .quem-somos{
+        text-align: center;
+        width: auto;
+        background-color: rgba(5, 27, 61, 1);
+        height: 750px;
+    }
+    
+    .quem-somos h1{
+        padding-top: 70px;
+        margin-bottom: 60px;
+        color: #FFFFFF;
+        font-weight: 700;
+        font-size: 65px;
+        text-transform: uppercase;
+    }
+    
+    .quem-somos h2{
+        width: auto;
+        font-family: 'Montserrat';
+        margin-top: 5px;
+        color: #FFFFFF;
+        font-style: oblique;
+        font-size: 22px;
+    }
+    
+    .quem-somos div{
+        text-align: center;
+        width: auto;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 50px;
+    }
+    
+    .quem-somos p{
+        text-align: left;
+        margin-left: 37px;
+        font-family: 'Montserrat';
+        color: #FFFFFF;
+        font-size: 15px;
+    }
+    
+    .separa{
+        margin-bottom: 50px;
+    }
+    
+    .quem-somos br{
+        margin: 5px;
+    }
+    
+    /*-----------------PRODUTOS-------------------***/
+    .produtos{
+        display: block;
+        text-align: center;
+        background-color: rgba(41, 227, 215, 1);
+        height: 920px;
+    }
+    
+    .produtos ul{
+        display: inline-block;
+        margin-top: 50px;
+        
+        background-color: rgba(5, 27, 61, 1);
+        width: 350px;
+        height: 380px;
+        vertical-align: top;
+    
+        border-radius: 50px;
+    }
+    
+    .produto-um{
+        margin-left: auto;
+        margin-right: 0px;
+    }
+    
+    .produto-dois{
+        margin-right: auto;
+        margin-left: 0px;
+    }
+    
+    .produtos img{
+        width: 350px;
+        height: 250px;
+        border-radius: 50px;
+        filter: brightness(0.9);
+    }
+    
+    .produtos h3{
+        margin-top: 20px;
+        font-family: 'Open sans';
+        color: #FFFFFF;
+        font-weight: bold;
+        font-size: 20px;
+        text-transform: uppercase;
+    }
+    
+    .produtos li{
+        margin-top: 20px;
+        font-family: 'Open sans';
+        font-weight: 700;
+        color: rgba(49, 180, 171, 1);
+        font-size: 15px;
+    }
+    
+    /*-----------------FALE-CONOSCO-------------------***/
+    .fale-conosco{
+        display: block;
+        text-align: center;
+        background-color: #FFFFFF;
+        height: 750px;
+    }
+    
+    .fale-conosco h1{
+        padding-top: 50px;
+        margin-bottom: 50px;
+        color: rgba(49, 180, 171, 1);
+        font-weight: 700;
+        font-size: 50px;
+        text-transform: uppercase;
+    }
+    
+    .fale-conosco div{
+        width: 800px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .fale-conosco label, input, textarea{
+        margin-left: 15px;
+        display: block;
+        text-align: left;
+    
+    }
+    
+    .fale-conosco label{
+        width: 800px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        font-size: 20px;
+        font-weight: 700;
+        color: rgba(49, 180, 171, 1);
+    }
+    
+    .nome {
+        font-family: 'Montserrat';
+        width: 325px;
+        height: 35px;
+    
+        padding-left: 10px;
+        border: 2px solid;
+        border-radius: 6px;
+    }
+    
+    
+    .email {
+        font-family: 'Montserrat';
+        width: 325px;
+        height: 35px;
+    
+        padding-left: 10px;
+        border: 2px solid;
+        border-radius: 6px;
+    }
+    
+    .mensagem{
+        font-family: 'Montserrat';
+        width: 325px;
+        padding-top: 20px;
+        padding-left: 10px;
+        border: 2px solid;
+        border-radius: 6px;
+    }
+    
+    .enviar{
+        cursor: pointer;
+        text-align: center;
+        margin-top: 15px;
+        width: 100px;
+        height: 40px;
+    
+        font-family: 'Open Sans';
+        color: #FFFFFF;
+        font-size: 18px;
+        font-weight: bold;
+        border: none;
+        border-radius: 10px;
+        background-color: rgba(15, 127, 190, 1);
+    }
+    
+    .mensagem-erro{
+        color: red;
+        width: 300px;
+    }
+    
+    
+    /*-----------------RODAPE-------------------***/
+    
+    .rodape{
+        width: 100%;
+        height: 600px;
+    }
+    
+    .logo-site{
+        display: block;
+        text-align: left; 
+        width: 300px;
+        margin-left: 25px;
+        margin-bottom: 25px;
+    }
+
+    .logo a{
+        margin-left: 10px;
+    }
+    
+    .rede-social img{
+        width: 70px;
+        border-radius: 50%;
+        margin-left: 25px;
+        margin-bottom: 20px;
+    }
+    
+    .menu-rodape{
+        display: inline-block;
+        vertical-align: top;
+        margin-top: 5px;
+        margin-bottom: 25px;
+    }
+    
+    .menu-rodape a{
+        color:#FFFFFF;
+        margin-top: 10px;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: 22px;
+    }
+    
+    .rodape p{
+        margin-top: 20px;
+        color: #FFFFFF;
+        font-size: 20px;
+    }
+    
+    .rodape p br{
+        margin: 5px;
+    }
+    
+    .menu-rodape .home{
+        color: rgba(49, 180, 171, 1);
+    }
+    
+    .copyright{
+        margin-bottom: 50px;
+    }
+}

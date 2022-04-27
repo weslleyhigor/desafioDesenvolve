@@ -6,8 +6,11 @@ body{
 
 /*-----------------CABECALHO-------------------***/
 header{
+    display: flexbox;
     background-color: rgba(19, 34, 53, 1);
-    width: 100%; 
+    width: 1000px; 
+    margin-left: auto;
+    margin-right: auto;
     height: 120px; 
     
 }
@@ -15,7 +18,6 @@ header{
 .cabecalho img{
     width: 250px;
     margin-top: 10px;
-    margin-left: 100px;
     margin-right: 300px;
 }
 
@@ -77,10 +79,10 @@ header{
 
 /*-----------------QUEM-SOMOS-------------------***/
 .quem-somos{
-    display: flexbox;
+    text-align: center;
     width: auto;
     background-color: rgba(5, 27, 61, 1);
-    height: 600px;
+    height: 800px;
 }
 
 .quem-somos h1{
@@ -101,23 +103,27 @@ header{
 }
 
 .quem-somos div{
-    display: flexbox;
     text-align: center;
+    width: 650px;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 70px;
 }
 
 .quem-somos p{
-    display: inline-block;
     text-align: left;
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 70px;
     font-family: 'Montserrat';
     color: #FFFFFF;
-    font-size: 23px;
+    font-size: 25px;
+}
+
+.separa{
+    margin-bottom: 50px;
 }
 
 .quem-somos br{
-    margin: 3px;
+    margin: 5px;
 }
 
 /*-----------------PRODUTOS-------------------***/
@@ -179,7 +185,7 @@ header{
     display: block;
     text-align: center;
     background-color: #FFFFFF;
-    height: 750px;
+    height: 800px;
 }
 
 .fale-conosco h1{
@@ -258,6 +264,10 @@ header{
     background-color: rgba(15, 127, 190, 1);
 }
 
+.mensagem-erro{
+    color: red;
+}
+
 
 /*-----------------RODAPE-------------------***/
 
@@ -307,6 +317,6 @@ header{
     margin: 5px;
 }
 
-.menu-rodape .inicio{
+.menu-rodape .home{
     color: rgba(49, 180, 171, 1);
 }
