@@ -18,9 +18,10 @@
     }
     
     .cabecalho img{
+        display: block;
         width: 190px;
         margin-top: 15px;
-        margin-left: 25%;
+        margin-left: 30%;
         margin-bottom: 10px;   
     }
     
@@ -104,7 +105,7 @@
         margin-top: 5px;
         color: #FFFFFF;
         font-style: oblique;
-        font-size: 22px;
+        font-size: 19px;
     }
     
     .quem-somos div{
@@ -136,18 +137,15 @@
         display: block;
         text-align: center;
         background-color: rgba(41, 227, 215, 1);
-        height: 920px;
+        height: auto;
+        padding-bottom: 30px;
     }
     
     .produtos ul{
-        display: inline-block;
-        margin-top: 50px;
-        
+        margin-top: 25px;
         background-color: rgba(5, 27, 61, 1);
         width: 350px;
         height: 380px;
-        vertical-align: top;
-    
         border-radius: 50px;
     }
     
@@ -198,12 +196,11 @@
         margin-bottom: 50px;
         color: rgba(49, 180, 171, 1);
         font-weight: 700;
-        font-size: 50px;
+        font-size: 30px;
         text-transform: uppercase;
     }
     
     .fale-conosco div{
-        width: 800px;
         margin-left: auto;
         margin-right: auto;
     }
@@ -216,7 +213,6 @@
     }
     
     .fale-conosco label{
-        width: 800px;
         margin-top: 20px;
         margin-bottom: 10px;
         font-size: 20px;
@@ -280,23 +276,24 @@
     
     .rodape{
         width: 100%;
-        height: 600px;
+        height: 550px;
     }
     
-    .logo-site{
+    .logo{
         display: block;
-        text-align: left; 
-        width: 300px;
-        margin-left: 25px;
+        text-align: center; 
+        width: auto;
         margin-bottom: 25px;
     }
 
-    .logo a{
-        margin-left: 10px;
+    .logo-site{
+        width: 300px;
+        margin-bottom: 15px;
     }
-    
+
+
     .rede-social img{
-        width: 70px;
+        width: 50px;
         border-radius: 50%;
         margin-left: 25px;
         margin-bottom: 20px;
