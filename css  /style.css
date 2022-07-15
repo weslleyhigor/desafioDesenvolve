@@ -39,7 +39,7 @@ header{
     background-image: url("../img/estudantes.jpeg"); 
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
+    /*background-size: cover;*/
     
     /*filter: brightness(0.6);*/
     width: 100%;
