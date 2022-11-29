@@ -1,0 +1,324 @@
+body{
+    background-color: rgba(19, 34, 53, 1);      
+    font-family: 'Open Sans', sans-serif;
+}
+
+/*-----------------CABECALHO-------------------***/
+header{
+    display: block;
+    text-align: center;
+    background-color: rgba(19, 34, 53, 1);
+    width: auto; 
+    margin-left: auto;
+    margin-right: auto;
+    height: 120px; 
+    
+}
+
+.cabecalho img{
+    width: 250px;
+    margin-top: 10px;
+}
+
+.cabecalho a{
+    display: inline-block;
+    margin-top: 50px;
+    margin-left: 25px;
+    vertical-align: top;
+
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+/*-----------------IMAGEM-FUNDO-------------------***/
+.imagem-fundo{
+    position: absolute;
+    background-image: url("../img/estudantes.jpeg"); 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+    filter: brightness(0.6);
+    width: 100%;
+    height: 700px; 
+    text-align: center;
+}
+
+.estudante{
+    text-align: center;
+    display: block;
+    position: relative;
+}
+
+.estudante h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    padding-top: 275px; 
+    color: #FFFFFF;
+    margin-bottom: 100px;
+}
+
+.caixa-realize-seu-sonho{
+    display: inline-block;
+    border: 3px solid #FFFFFF;
+    width: 300px;
+    margin-bottom: 170px;
+    border-radius: 7px;
+    height: 50px;
+    padding-top: 20px;
+    
+    text-decoration: none;
+    font-size: 20px;
+    color: #FFFFFF;
+    font-weight: 700;
+}
+
+/*-----------------QUEM-SOMOS-------------------***/
+.quem-somos{
+    text-align: center;
+    width: auto;
+    background-color: rgba(5, 27, 61, 1);
+    height: 800px;
+}
+
+.quem-somos h1{
+    padding-top: 100px;
+    margin-bottom: 60px;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 60px;
+    text-transform: uppercase;
+}
+
+.quem-somos h2{
+    font-family: 'Montserrat';
+    margin-top: 5px;
+    color: #FFFFFF;
+    font-style: oblique;
+    font-size: 35px;
+}
+
+.quem-somos div{
+    text-align: center;
+    width: 650px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 70px;
+}
+
+.quem-somos p{
+    text-align: left;
+    margin-left: 70px;
+    font-family: 'Montserrat';
+    color: #FFFFFF;
+    font-size: 25px;
+}
+
+.separa{
+    margin-bottom: 50px;
+}
+
+.quem-somos br{
+    margin: 5px;
+}
+
+/*-----------------PRODUTOS-------------------***/
+.produtos{
+    display: flex;
+    text-align: center;
+    background-color: rgba(41, 227, 215, 1);
+    height: 750px;
+}
+
+.produtos ul{
+    display: inline-block;
+    margin-top: 50px;
+    
+    background-color: rgba(5, 27, 61, 1);
+    width: 550px;
+    height: 620px;
+    vertical-align: top;
+
+    border-radius: 50px;
+}
+
+.produto-um{
+    margin-left: auto;
+    margin-right: 25px;
+}
+
+.produto-dois{
+    margin-right: auto;
+    margin-left: 25px;
+}
+
+.produtos img{
+    width: 550px;
+    height: 450px;
+    border-radius: 50px;
+    filter: brightness(0.9);
+}
+
+.produtos h3{
+    margin-top: 25px;
+    font-family: 'Open sans';
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 32px;
+    text-transform: uppercase;
+}
+
+.produtos li{
+    margin-top: 25px;
+    font-family: 'Open sans';
+    font-weight: 700;
+    color: rgba(49, 180, 171, 1);
+    font-size: 22px;
+}
+
+/*-----------------FALE-CONOSCO-------------------***/
+.fale-conosco{
+    display: block;
+    text-align: center;
+    background-color: #FFFFFF;
+    height: 800px;
+}
+
+.fale-conosco h1{
+    padding-top: 100px;
+    margin-bottom: 50px;
+    color: rgba(49, 180, 171, 1);
+    font-weight: 700;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+
+.fale-conosco div{
+    text-align: left;
+    margin-left: 15%;
+    margin-right: auto;
+}
+
+.fale-conosco label, input, textarea{
+    text-align: left;
+}
+
+.fale-conosco label{
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: 700;
+    color: rgba(49, 180, 171, 1);
+}
+
+.nome {
+    font-family: 'Montserrat';
+    width: 400px;
+    height: 35px;
+
+    padding-left: 10px;
+    border: 2px solid;
+    border-radius: 6px;
+}
+
+
+.email {
+    font-family: 'Montserrat';
+    width: 400px;
+    height: 35px;
+
+    padding-left: 10px;
+    border: 2px solid;
+    border-radius: 6px;
+}
+
+.mensagem{
+    font-family: 'Montserrat';
+
+    padding-top: 20px;
+    padding-left: 10px;
+    border: 2px solid;
+    border-radius: 6px;
+}
+
+.enviar{
+    display: block;
+    cursor: pointer;
+    text-align: center;
+    margin-top: 15px;
+    width: 100px;
+    height: 40px;
+
+    font-family: 'Open Sans';
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    background-color: rgba(15, 127, 190, 1);
+}
+
+.mensagem-erro{
+    color: red;
+}
+
+
+/*-----------------RODAPE-------------------***/
+
+.rodape{
+    width: 100%;
+    height: 400px;
+}
+
+.logo{
+    display: block;
+    text-align: center; 
+    margin-top: 50px;
+}
+
+.rede-social img{
+    width: 70px;
+	border-radius: 50%;
+    margin-left: 25px;
+    margin-bottom: 50px;
+}
+
+.menu-rodape{
+    display: block;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 35px;
+}
+
+.menu-rodape a{
+    color:#FFFFFF;
+    margin-top: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.rodape p{
+    margin-top: 20px;
+    color: #FFFFFF;
+    font-size: 20px;
+}
+
+.rodape p br{
+    margin: 5px;
+}
+
+.menu-rodape .home{
+    color: rgba(49, 180, 171, 1);
+}
+
+.copyright{
+    width: auto;
+    text-align: center;
+}
